@@ -8,17 +8,16 @@ const HomeLayout = ( { children }: { children: ReactNode } ) => {
     <main className='relative'>
       <Navbar/>
 
-      <div className='flex bg-sky-500'>
+      <div className='flex flex-row bg-sky-500'>
       <Sidebar/>
 
-        <section className='flex flex-1 flec-col min-h-screen px-6 pb-6 pt-28 max-md:pb-14 sm:px-14'>
+        <section className='flex flex-1 flex-col min-h-screen py-22 max-md:pb-14 sm:px-14 lg:px-5'>
           <div className='w-full'>
             {children}
           </div>
         </section>
         
       </div>
-      Footer
     </main>
   )
 }

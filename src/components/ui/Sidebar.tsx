@@ -29,7 +29,7 @@ const Sidebar = () => {
 
   return (
     <section
-      className={`sticky top-0 left-0 h-screen bg-purple-600 transition-all duration-500 ease-in-out py-6 pt-22 ${isOpen ? 'w-64' : 'w-18'} max-md:hidden`}
+      className={`sticky top-0 left-0 h-screen bg-purple-600 transition-all duration-500 ease-in-out py-6 pt-20 ${isOpen ? 'w-64' : 'w-18'} max-md:hidden`}
       onMouseEnter={() => setIsOpen(true)}
       onMouseLeave={() => setIsOpen(false)}
     >
@@ -49,7 +49,7 @@ const Sidebar = () => {
               href={link.route}
               key={link.label}
               className={cn(
-              'font-semibold hover:bg-purple-100 hover:text-black w-[90%] pl-5 py-8 mx-4 my-1 rounded-lg flex items-center h-8',
+              'font-semibold hover:bg-purple-100 hover:text-black w-[90%] pl-5 py-8 my-1 rounded-lg flex items-center h-8',
               {
                 'bg-purple-100 text-black': isActive && !(link.label === 'Home' ? pathname !== '/' : link.route.endsWith('/')),
               }
