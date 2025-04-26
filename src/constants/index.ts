@@ -12,7 +12,7 @@ export const sideBarLinks = [
         imageIcon: 'MdUpcoming',
     },
     {
-        label: 'Previous',
+        label: 'Previous Events',
         route: '/previous',
         imageLib: 'ri',
         imageIcon: 'RxTrackPrevious',
