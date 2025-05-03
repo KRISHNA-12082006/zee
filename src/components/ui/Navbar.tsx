@@ -14,7 +14,7 @@ import {
 
 const Navbar = () => {
   return (
-  <nav className='flex flex-between fixed z-50 w-full h-15 bg-pink-500 px-5 sm:py-4 justify-between '>
+  <nav className='flex flex-between fixed z-50 w-full h-15 bg-pink-500 px-5 sm:py-4 justify-between lg:pl-5 lg:p-2'>
     <Link href='/' className='flex items-center gap-1'>
     <Image
     src='/icons//logo.svg'
@@ -29,11 +29,7 @@ const Navbar = () => {
 
 
     <div className='flex flex-row gap-3 mt-3'>
-    <div className='mt-1'>
-        <SignedOut>
-          <SignInButton />
-          <SignUpButton />
-        </SignedOut>
+    <div className='mt-1 lg:mt-0 lg:scale-130'>
         <SignedIn>
           <UserButton />
         </SignedIn>
