@@ -39,7 +39,7 @@ const MobileNav = () => {
         className='cursor-pointer sm:hidden max-sm:scale-120 lg:hidden'
         />
      </SheetTrigger>
-    <SheetContent side='left' className='border-none bg-amber-600'>
+    <SheetContent side='left' className='border-none bg-[#161925]'>
     <Link href='/' className='flex items-center gap-1 mb-10 p-5'>
     <Image
     src='/icons/logo.svg'
@@ -69,9 +69,9 @@ const MobileNav = () => {
               href={link.route}
               key={link.label}
               className={cn(
-              'font-semibold hover:bg-purple-100 hover:text-black w-[90%] pl-5 py-8 my-1 rounded-lg flex items-center h-8 max-w-60',
+              'font-semibold hover:bg-purple-100 hover:text-black w-[90%] pl-5 py-8 my-1 rounded-lg flex items-center h-8 min-w-full border-b border-blue-500',
               {
-                'bg-purple-100 text-black': isActive && !(link.label === 'Home' ? pathname !== '/' : link.route.endsWith('/')),
+                'bg-gray-300 text-black': isActive && !(link.label === 'Home' ? pathname !== '/' : link.route.endsWith('/')),
               }
               )}
             >

@@ -8,7 +8,7 @@ const HomeLayout = ( { children }: { children: ReactNode } ) => {
     <main className='relative'>
       <Navbar/>
 
-      <div className='flex flex-row bg-sky-500'>
+      <div className='flex flex-row'>
       <Sidebar/>
 
         <section className='flex flex-1 flex-col min-h-screen py-22 max-md:pb-14 sm:px-14 lg:px-5'>

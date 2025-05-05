@@ -14,7 +14,7 @@ import {
 
 const Navbar = () => {
   return (
-  <nav className='flex flex-between fixed z-50 w-full h-15 bg-pink-500 px-5 sm:py-4 justify-between lg:pl-5 lg:p-2'>
+  <nav className='flex flex-between fixed z-50 w-full h-15 bg-[#161925] px-5 sm:py-4 justify-between lg:px-5 lg:p-2 '>
     <Link href='/' className='flex items-center gap-1'>
     <Image
     src='/icons//logo.svg'
