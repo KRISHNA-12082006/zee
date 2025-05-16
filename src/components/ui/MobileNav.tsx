@@ -40,9 +40,9 @@ const MobileNav = () => {
         />
      </SheetTrigger>
     <SheetContent side='left' className='border-none bg-[#161925]'>
-    <Link href='/' className='flex items-center gap-1 mb-10 p-5'>
+    <Link href='/' className='flex items-center gap-3 mb-10 p-5'>
     <Image
-    src='/icons/logo.svg'
+    src='/icons/logo.png'
     width={32}
     height={32}
     alt='Zee'

@@ -17,12 +17,13 @@ const Navbar = () => {
   <nav className='flex flex-between fixed z-50 w-full h-15 bg-[#161925] px-5 sm:py-4 justify-between lg:px-5 lg:p-2 '>
     <Link href='/' className='flex items-center gap-1'>
     <Image
-    src='/icons//logo.svg'
+    src='/icons/zoom.png'
     width={32}
     height={32}
     alt='Zee'
-    className='max-sm:size-10 lg:scale-130 lg:mr-2' />
-    <p className='text-[26px] font-bold text-white max-sm:hidden pb-1'>
+    className='max-sm:size-10 lg:scale-130 lg:mr-2'
+    style={{ filter: 'brightness(160%)' }} />
+    <p className='text-[30px] font-bold text-white max-sm:hidden pb-1 chivo-tu font-extrabold'>
       Zee
     </p>
     </Link>

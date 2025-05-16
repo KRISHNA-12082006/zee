@@ -4,7 +4,7 @@ import '../globals.css'
 
 export const metadata = {
   title: 'Zee',
-  description: 'Aythentication',
+  description: 'Authentication',
 }
 
 export default function RootLayout({
@@ -30,7 +30,7 @@ export default function RootLayout({
           },
         }}
       >
-        <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-[#1C1F2E] to-[#252A41]">
+        <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-[#1C1F2E] to-[#252A41] p-32">
           {children}
         </div>
       </ClerkProvider>
